@@ -1,0 +1,180 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.work {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.profile {
+	background-color: black;
+	text-align: center;
+	height: 937px;
+	color: white;
+}
+
+.profile a img:hover {
+	transform: scale(1.25);
+	transition: 0.5s;
+}
+#avatar {
+	border-radius: 50%;
+	position: relative;
+	top: 200px;
+}
+
+.profile hr {
+	position: relative;
+	top: 250px;
+}	
+
+.profile p {
+	position: relative;
+	top: 200px;
+	font-family: sans-serif;
+	font-size: 200%;
+	font-weight: 700;
+}
+
+#genderjpg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 250px;
+	right: 200px;
+}
+
+#majorjpg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 250px;
+	right: 100px;
+}
+
+#cityjpg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 250px;
+}
+
+#sportjpg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 250px;
+	left: 100px;
+}
+
+#hobbyjpg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 250px;
+	left:200px;
+}
+
+.major {
+	background-color: deepskyblue;
+	height: 937px;
+}
+
+.major h1 {
+	text-align: center;
+}
+
+.major p {
+	text-indent: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.major img {
+	width: 500px;
+	height: 500px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.city {
+	background-color: skyblue;
+	height: 937px;
+}
+.city h1 {
+	text-align: center;
+}
+
+.city p {
+	text-indent: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.city img {
+	width: 500px;
+	height: 500px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.sport {
+	background-color: darkgreen;
+	height: 937px;
+	background-image:url(jpg/field.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sport h1 {
+	text-align: center;
+}
+
+.sport p {
+	text-indent: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background: linear-gradient(transparent,30%,grey);
+}
+
+.sport img {
+	width: 500px;
+	height: 500px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.hobby {
+	background-color: beige;
+	height: 700px;
+}
+.hobby h1 {
+	text-align: center;
+}
+
+.hobby p {
+	text-indent: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.hobby img {
+	width: 1000px;
+	height: 500px;
+	padding-right: 200px;
+	padding-left: 490px;
+}
+
+.top a img {
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+}
